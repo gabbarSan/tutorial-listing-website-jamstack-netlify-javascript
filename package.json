@@ -1,0 +1,14 @@
+{
+  "name": "tutorial-listing-website-jamstack-netlify-javascript",
+  "version": "1.0.0",
+  "description": "This is a JAMStack Netlify and JavaScript website tutorial.",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
