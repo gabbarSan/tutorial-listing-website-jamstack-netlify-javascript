@@ -570,7 +570,7 @@ ul.list-highlights  li:first-child{
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .header-bg-image{
-	background-image: url('/assets/images/listing/harbour-bridge/sydney-harbour-bridge-profile-banner.jpg');
+	background-image: url('/assets/images/listing/sydney/sydney-harbour-bridge-profile-banner.jpg');
 	margin-bottom: 15px;
 	min-height: 300px;
 }
