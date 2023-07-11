@@ -7,7 +7,7 @@ bannerImage: ""
 listingPrice: ""
 galleryImages: 
    -  src: /assets/images/listing/sydney/sydney-banner-1.jpg
-      alt: Sydney harbour bridge, daytime closeup picture
+      alt: Sydney banner 1 
    -  src: /assets/images/listing/sydney/sydney-banner-2.jpg
       alt: Sydney banner 2 
    -  src: /assets/images/listing/sydney/sydney-banner-3.jpg
