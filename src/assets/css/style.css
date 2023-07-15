@@ -1,0 +1,403 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url('http://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700,900');
+
+body {
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:20px;
+	margin:0;
+	color:#444;
+	background-color:#fff;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+h1 {
+   text-transform: uppercase;
+   font-weight: 800;
+   font-size: 46px;
+   line-height: 48px;
+   margin: 0 0 0 0;
+   padding: 0;
+}
+
+a {
+   color: #827b00;
+   text-decoration: none;
+   -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+
+p {
+   margin-bottom: 20px;
+   text-align: justify;
+   line-height: 1.5;
+}
+
+p.lead {
+   font-weight: 300;
+}
+
+/******************************************************/
+/********************** Fonts ************************/
+/******************************************************/
+
+/* latin */
+@font-face {
+	font-family: 'Cinzel Decorative';
+	font-style: normal;
+	font-weight: 900;
+	src:url('../fonts/cinzel-decorative-by-google.woff2') format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+@font-face{
+	font-family:'FontAwesome';
+	src:url('../fonts/fontawesome-webfont.woff2') format('woff2');
+	font-weight:normal;
+	font-style:normal
+}
+.fa {
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);
+}
+.fa-facebook-f:before, .fa-facebook:before {
+	content: "\f09a";
+}
+.fa-instagram:before {
+	content: "\f16d";
+}
+.fa-check {
+	content: "\f00c";	
+}
+.fa-angle-right:before {
+	content: "\f105";
+}
+
+/******************************************************/
+/******************* Header Navbar ********************/
+/******************************************************/
+.navbar{
+   padding-top: 0;
+   line-height: 3;
+   background-color: #133872cc !important;;
+}
+.nav-item {
+   text-transform: uppercase;
+   font-size: 12px;
+   font-weight: 600;
+}
+.navbar-brand {
+   color: #fff !important;
+}
+.nav-link {
+   color: #fff !important;
+}
+.navbar-brand:hover {
+   color: #0a58ca !important;
+}
+.nav-link:hover {
+   color: #0a58ca !important;
+}
+.nav-link.disabled {
+   color: #6c757d !important;
+}
+
+/******************************************************/
+/**************** Header Banner Image *****************/
+/******************************************************/
+.header-bg-image {
+   background-image: url('/assets/images/listing/sydney/sydney-harbour-bridge-profile-banner.jpg');
+   margin-bottom: 15px;
+   min-height: 300px;
+}
+
+.breadcrumb {
+   background: none;
+   padding: 0;
+   font-size: 12px;
+   margin-top: 0;
+   margin-bottom: 10px;
+}
+
+/******************************************************/
+/********************** Itinerary *********************/
+/******************************************************/
+
+.itinerary-image {
+   position: relative;
+   background-color: #ededed;
+   -moz-box-shadow: 0px 0px 0px 5px #ededed;
+   -webkit-box-shadow: 0px 0px 0px 5px #ededed;
+   box-shadow: 0px 0px 0px 5px #ededed;
+   margin: 10px;
+     margin-top: 10px;
+   margin-top: 5px;
+}
+
+.itinerary-list {
+   border-bottom: 1px dashed #ededed;
+   padding-bottom: 5px;
+   display: flex;
+}
+
+/*******************************************************************************/
+/******** Section Extras Tabs (List Of Essentials and Exclusions List) *********/
+/*******************************************************************************/
+.extras-link{
+   color: #0d6efd !important;
+}
+
+.extras-link.active{
+   color: #495057 !important;
+}
+
+.tab-content {
+   padding-top: 15px;
+}
+
+/*******************************************************/
+/******************* Section Price *********************/
+/*******************************************************/
+ .price {
+	font-size:42px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	border-bottom:1px solid rgba(255, 255, 255, 0.4);
+	margin-bottom:15px;
+	padding-bottom:15px;
+}
+.price small{
+	font-size:18px;
+	font-weight:600;
+}
+
+/* PRICE PANEL */
+.price-box {
+	background: #403f3f;
+	padding:35px 25px 20px 25px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+	color:#fff;
+	margin-bottom:25px;
+	-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+/*right tick on the price panel - Start*/
+ul.list_ok {
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-weight:600;
+}
+
+ul.list_ok li {
+	margin-bottom:0;
+	position:relative;
+	padding-left:20px;
+}
+
+/* Price check icon*/
+ul.list_ok li:before {
+	display: inline-block;
+    font: normal normal normal 15px/1 FontAwesome;
+    font-size: 18px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);	
+	content: "\f058";
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+
+/******************************************************/
+/***************** Section Testimonial ****************/
+/******************************************************/
+
+blockquote.testimonial {
+   background: #f1f0e6;
+   border-radius: 7px;
+   border: 0;
+   font-family: Georgia, serif;
+   font-style: italic;
+   margin: 0;
+   padding: 20px 15px 20px 35px;
+   position: relative;
+}
+
+blockquote.testimonial:before {
+   left: 7px;
+   top: 5px;
+   color: #333;
+   content: "\201C";
+   font-size: 60px;
+   font-style: normal;
+   line-height: 1;
+   position: absolute;
+}
+
+blockquote.testimonial p {
+   font-family: Georgia, serif;
+   font-style: italic;
+   font-size:14px;
+   line-height:20px;
+}
+
+/* Testimonials Arrow */
+.testimonial-arrow-down {
+   border-left: 15px solid transparent;
+   border-right: 15px solid transparent;
+   border-top: 15px solid #f2f1e6;
+   height: 0;
+   margin: 0 0 0 25px;
+   width: 0;
+}
+
+/* Testimonials Author */
+.testimonial-author {
+   margin: 8px 0 0 8px;
+}
+
+.testimonial-author .img-thumbnail {
+   float: left;
+   margin-right: 10px;
+}
+
+.testimonial-author .img-thumbnail img {
+   max-width: 60px;
+}
+
+.testimonial-author strong {
+   color: #111;
+   display: block;
+   padding-top: 7px;
+}
+.testimonial-author span {
+   color: #666;
+   display: block;
+   font-size: 12px;
+}
+.testimonial-author p {
+   color: #999;
+   margin: 0 0 0 25px;
+   text-align: left;
+}
+.testimonial-author .img-thumbnail-small{
+   border-radius: 50px;
+}
+.testimonial-author a{
+   cursor: pointer;
+}
+.img-circle {
+   border-radius: 50%;
+}
+
+
+/******************************************************/
+/**************** Section Related Links ***************/
+/******************************************************/
+
+ul.related-link-list {
+   list-style: none;
+   margin: 0 0 25px 0;
+   padding: 0;
+   font-weight: 700;
+   font-size: 14px;
+ }
+ ul.related-link-list li a {
+   text-decoration: none;
+   padding: 4px 0 4px 0;
+   display: block;
+   margin-bottom: 0;
+   border-bottom: 1px solid #efefef;
+ }
+ ul.related-link-list li a:after {
+    font: normal normal normal 15px/1 FontAwesome;
+    font-size: 18px;
+    font-weight: 800;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);	
+	content: "\f105";
+	position:relative;
+   float: right;
+ }
+
+
+/******************************************************/
+/********************** Footer ************************/
+/******************************************************/
+
+footer nav, header nav{ padding:0; margin:0; position:relative; top:0; left:0;}
+
+footer {background-color:#133872cc; margin-top:60px; position:relative; color:#fff; padding:30px 0 20px 0;}
+#footer_waves { position:absolute; top:-36px; width:100%; height:37px; background: #133872cc repeat-x 0 1px; left:0;}
+.footer_nav ul { list-style:none; margin:0 0 25px 0; padding:0;}
+
+footer a { color:#fff;}
+footer a:hover { color: #FF6;}
+#copy { font-size:12px; margin-bottom:0;}
+
+#contact_footer ul{
+	list-style:none;
+	margin:-5px 0 20px 0;
+	padding:0;
+}
+
+
+/******************************************************/
+/***************** Social / Follow ********************/
+/******************************************************/
+ul#follow_us {
+	list-style:none;
+	padding:0;
+	margin:10px 0 15px 0;
+}
+ul#follow_us  li{
+	font-weight:600;
+}
+
+ul#follow_us  li{
+	display: inline-block;
+	margin-right:10px;
+}
+ul#follow_us  li a{
+	width:34px;
+	color:#fff;
+	height:34px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	display:block;
+	line-height:32px;
+	font-size:18px;
+	text-align:center;
+	font-weight:normal;
+}
+ul#follow_us li a:hover{
+	border: 2px solid #FF6;
+	color:#FF6;
+}
+
+/******************************************************/
+/*************** Extras / Miscellaneous *****************/
+/******************************************************/
+.border-content {
+   border: 1px solid #dee2e6 !important;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+.pull-right {
+   float: right !important;
+}
