@@ -419,6 +419,20 @@ ul.list_1 li a:after {
 	float:right;
 }
 
+ul.list_1 li a:after {
+	font: normal normal normal 15px/1 FontAwesome;
+	font-size: 18px;
+	font-weight: 800;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	transform: translate(0, 0);	
+  content: "\f105";
+  position:relative;
+  float: right;
+}
+
+
 /* Itinerary Section Picture */
 .picture{ position:relative;}
 
@@ -560,7 +574,7 @@ ul.list-highlights  li:first-child{
 .navbar{
 	padding-top: 0;
 	line-height: 3;
-    background-color: #133872cc;
+	background-color: #133872cc;
 	background: #133872cc;
 }
 .navbar-brand {
